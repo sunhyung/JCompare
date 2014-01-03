@@ -1,7 +1,7 @@
 object frmFileOpen: TfrmFileOpen
   Left = 408
   Top = 388
-  Caption = #54028#51068#50676#44592
+  Caption = 'Open'
   ClientHeight = 106
   ClientWidth = 408
   Color = clBtnFace
@@ -19,16 +19,16 @@ object frmFileOpen: TfrmFileOpen
   object Label1: TLabel
     Left = 16
     Top = 12
-    Width = 52
+    Width = 60
     Height = 12
-    Caption = #48708#44368' '#54028#51068
+    Caption = 'Source file'
   end
   object Label2: TLabel
     Left = 16
     Top = 35
-    Width = 52
+    Width = 56
     Height = 12
-    Caption = #45824#49345' '#54028#51068
+    Caption = 'Target file'
   end
   object eFile1: TEdit
     Left = 80
@@ -69,15 +69,15 @@ object frmFileOpen: TfrmFileOpen
     Top = 64
     Width = 153
     Height = 17
-    Caption = #45824#49548#47928#51088' '#47924#49884#54616#44256' '#48708#44368
+    Caption = 'Case insensitive'
     TabOrder = 4
   end
   object cboxIgnoreWhiteSpace: TCheckBox
     Left = 16
     Top = 88
-    Width = 193
+    Width = 305
     Height = 17
-    Caption = #51460' '#45149#51032' '#44277#48177#47928#51088' '#47924#49884#54616#44256' '#48708#44368
+    Caption = 'Ignore white characters of the end of sentence'
     TabOrder = 5
   end
   object btnOk: TButton
@@ -85,7 +85,7 @@ object frmFileOpen: TfrmFileOpen
     Top = 8
     Width = 75
     Height = 25
-    Caption = #48708#44368#49884#51089
+    Caption = 'Start!'
     ModalResult = 1
     TabOrder = 6
     OnClick = btnOkClick
@@ -95,7 +95,7 @@ object frmFileOpen: TfrmFileOpen
     Top = 40
     Width = 75
     Height = 25
-    Caption = #45803#44592
+    Caption = 'Close'
     ModalResult = 2
     TabOrder = 7
     OnClick = btnCancelClick
