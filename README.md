@@ -4,7 +4,7 @@ JCompare
 Text file compare program
 
 License
- - LGPL 2.1
+ - MIT
 
 How to compile
  - Before compiling this project, you should install two components which DiffEdit.pas has in EditControl folder.
